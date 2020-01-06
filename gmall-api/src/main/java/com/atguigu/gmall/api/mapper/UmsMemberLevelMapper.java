@@ -1,0 +1,1 @@
+package com.atguigu.gmall.api.mapper;import com.atguigu.gmall.api.bean.UmsMemberLevel;import tk.mybatis.mapper.common.Mapper;/** * @InterfaceName UmsMemberLevelMapper * @Description TODO * @Author 19680 * @Date 2020/1/6 11:32 * @Version 1.0 **/public interface UmsMemberLevelMapper extends Mapper<UmsMemberLevel>{}

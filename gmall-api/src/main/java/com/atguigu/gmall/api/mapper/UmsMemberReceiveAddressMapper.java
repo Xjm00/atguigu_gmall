@@ -1,0 +1,1 @@
+package com.atguigu.gmall.api.mapper;import com.atguigu.gmall.api.bean.UmsMemberReceiveAddress;import tk.mybatis.mapper.common.Mapper;/** * @InterfaceName UmsMemberReceiveAddressMapper * @Description TODO * @Author 19680 * @Date 2020/1/6 11:35 * @Version 1.0 **/public interface UmsMemberReceiveAddressMapper extends Mapper<UmsMemberReceiveAddress> {}
