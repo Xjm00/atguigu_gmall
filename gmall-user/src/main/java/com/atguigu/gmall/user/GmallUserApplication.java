@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import tk.mybatis.spring.annotation.MapperScan;
 
-@MapperScan(basePackages = "com.atguigu.gmall.api.mapper")
+@MapperScan(basePackages = "com.atguigu.manage.user.mapper")
 @SpringBootApplication
 public class GmallUserApplication {
 

@@ -1,1 +1,0 @@
-package com.atguigu.gmall.api.mapper;import com.atguigu.gmall.api.bean.UmsMember;import tk.mybatis.mapper.common.Mapper;/** * @ClassName UmsMemberMapper * @Author 19680 * @Date 2020/1/6 11:08 * @Version 1.0 * @Description TODO **/public interface UmsMemberMapper extends Mapper<UmsMember>{}
