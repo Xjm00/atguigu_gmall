@@ -1,0 +1,1 @@
+package com.atguigu.gmall.order.mapper;import com.atguigu.gmall.bean.OmsOrder;import tk.mybatis.mapper.common.Mapper;/** * @ClassName OmsOrderMapper * @Author 19680 * @Date 2020/2/13 11:44 * @Version 1.0 * @Description TODO **/public interface OmsOrderMapper extends Mapper<OmsOrder>{}

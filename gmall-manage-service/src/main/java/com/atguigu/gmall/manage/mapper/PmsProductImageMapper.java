@@ -1,0 +1,1 @@
+package com.atguigu.gmall.manage.mapper;import com.atguigu.gmall.bean.PmsProductImage;import tk.mybatis.mapper.common.Mapper;/** * @InterfaceName PmsProductImageMapper * @Description TODO * @Author 19680 * @Date 2020/1/7 23:15 * @Version 1.0 **/public interface PmsProductImageMapper extends Mapper<PmsProductImage> {}

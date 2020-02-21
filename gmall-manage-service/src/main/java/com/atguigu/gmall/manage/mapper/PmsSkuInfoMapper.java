@@ -1,0 +1,1 @@
+package com.atguigu.gmall.manage.mapper;import com.atguigu.gmall.bean.PmsSkuInfo;import tk.mybatis.mapper.common.Mapper;/** * @InterfaceName PmsSkuInfoMapper * @Description TODO * @Author 19680 * @Date 2020/1/9 17:17 * @Version 1.0 **/public interface PmsSkuInfoMapper  extends Mapper<PmsSkuInfo>{}

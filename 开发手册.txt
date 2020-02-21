@@ -1,0 +1,69 @@
+﻿
+用户登录密码应在登录时就使用MD5加密
+
+/****************************************************************
+App Key：
+    1390004546
+
+App Secret：
+    80692a54064a796b8e44324f5decb806 
+
+/*****************************************************************
+
+授权回调页：
+    http://127.0.0.1:8077/vlogin
+
+取消授权回调页：
+    http://127.0.0.1:8077/vlogin
+
+/*****************************************************************
+
+请求授权（get/post）：
+	https://api.weibo.com/oauth2/authorize
+		client_id: App Key
+		redirect_uri:	回调uri
+例如：	https://api.weibo.com/oauth2/authorize?client_id=1390004546&response_type=code&redirect_uri=http://127.0.0.1:8077/vlogin
+
+/*****************************************************************
+
+获取请求（post）：
+	https://api.weibo.com/oauth2/access_token
+		client_id: App Key
+		client_secret: App Secret
+		grant_type: 请求的类型，填写authorization_code 
+		code: 调用authorize获得的code值
+		redirect_uri:	回调uri
+例如：	https://api.weibo.com/oauth2/access_token
+
+/*****************************************************************
+
+授权查询（post）：
+	https://api.weibo.com/oauth2/get_token_info
+		请求参数：
+			access_token：用户授权时生成的access_token
+		返回数据：
+			返回值字段 	字段类型 	字段说明
+			  uid 	         string 	授权用户的uid。
+			  appkey 	 string 	access_token所属的应用appkey。
+			  scope 	 string 	用户授权的scope权限。
+			  create_at 	 string 	access_token的创建时间，从1970年到创建时间的秒数。
+			  expire_in 	 string 	access_token的剩余时间，单位是秒数。 
+例如：	https://api.weibo.com/oauth2/get_token_info
+
+/***************************************************************************
+
+{"access_token":"2.00RpYWHGKg_EWB9cd6d59717ZunP2B","remind_in":"157679999",
+"expires_in":157679999,"uid":"5607991715","isRealName":"true"}
+
+查询用户信息：
+    https://api.weibo.com/2/users/show.json?access_token=2.00RpYWHGKg_EWB9cd6d59717ZunP2B&uid=5607991715
+
+/*****************************************************************************
+
+
+
+
+
+
+
+

@@ -1,0 +1,1 @@
+package com.atguigu.gmall.service;import com.atguigu.gmall.bean.PmsBaseAttrValue;/** * @ClassName PmsBaseAttrValueService * @Author 19680 * @Date 2020/1/29 10:42 * @Version 1.0 * @Description TODO **/public interface PmsBaseAttrValueService {    PmsBaseAttrValue getBaseAttrValueById(String valueId);}

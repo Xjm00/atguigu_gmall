@@ -1,0 +1,1 @@
+package com.atguigu.gmall.service;import com.atguigu.gmall.bean.UmsMember; /** * @ClassName UmsMemberService * @Author 19680 * @Date 2020/2/11 23:59 * @Version 1.0 * @Description TODO **/public interface UmsMemberService {    public UmsMember saveUmsMember(UmsMember umsMember);}

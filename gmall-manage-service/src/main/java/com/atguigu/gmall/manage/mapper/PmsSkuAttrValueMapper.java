@@ -1,0 +1,1 @@
+package com.atguigu.gmall.manage.mapper;import com.atguigu.gmall.bean.PmsSkuAttrValue;import tk.mybatis.mapper.common.Mapper;/** * @InterfaceName PmsSkuAttrValueMapper * @Description TODO * @Author 19680 * @Date 2020/1/10 14:27 * @Version 1.0 **/public interface PmsSkuAttrValueMapper extends Mapper<PmsSkuAttrValue>{}

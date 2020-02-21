@@ -1,0 +1,1 @@
+package com.atguigu.gmall.manage.mapper;import com.atguigu.gmall.bean.PmsBaseCatalog1;import tk.mybatis.mapper.common.Mapper;/** * @InterfaceName PmsBaseCatalog1Mapper * @Description TODO * @Author 19680 * @Date 2020/1/7 11:24 * @Version 1.0 **/public interface PmsBaseCatalog1Mapper extends Mapper<PmsBaseCatalog1> {}

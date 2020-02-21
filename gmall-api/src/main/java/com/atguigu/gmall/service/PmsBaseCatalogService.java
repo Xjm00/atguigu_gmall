@@ -1,0 +1,1 @@
+package com.atguigu.gmall.service;import com.atguigu.gmall.bean.PmsBaseCatalog1;import java.util.List;/** * @ClassName PmsBaseCatalogService * @Author 19680 * @Date 2020/1/7 10:10 * @Version 1.0 * @Description TODO **/public interface PmsBaseCatalogService {    List<PmsBaseCatalog1> getCatalog1All();}
