@@ -1,0 +1,1 @@
+package com.atguigu.gmall.pay.mapper;import com.atguigu.gmall.bean.PaymentInfo;import tk.mybatis.mapper.common.Mapper;/** * @InterfaceName PaymentInfoMapper * @Description TODO * @Author 19680 * @Date 2020/2/15 13:11 * @Version 1.0 **/public interface PaymentInfoMapper extends Mapper<PaymentInfo>{}
